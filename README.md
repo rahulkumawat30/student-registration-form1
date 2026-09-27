@@ -70,6 +70,7 @@ Through this project, I practiced:
 * Basic responsive design
 
 ## 📸 Preview
+https://rahulkumawat30.github.io/student-registration-form1/
 <img width="1916" height="1034" alt="image" src="https://github.com/user-attachments/assets/10d54c8c-8ef9-43a7-b79a-7a1f99b29999" />
 
 
