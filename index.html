@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><h1>Student Registration Form</h1></header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter Full Name"><br><br>
+                <label for="fname">Father's Name:</label>
+                <input type="text" id="fname" placeholder="Enter Father's Name"><br><br>
+                <label for="mname">Mother's Name:</label>
+                <input type="text" id="mname" placeholder="Enter Mother's Name"><br><br>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" id="dob"><br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                <input type="radio" name="gender" id="other"><label for="other">Other</label>
+            </fieldset><br>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email"><br><br>
+                <label for="tel">Mobile Number:</label>
+                <input type="tel" name="tel" id="tel" placeholder="Enter Your Mobile Number" maxlength="10"><br><br>
+                <label for="address">Address:</label>
+                <textarea cols="30" rows="5" name="address" id="address" placeholder="Enter Address"></textarea><br><br>
+                
+            </fieldset><br>
+            <fieldset>
+                <legend>Academic Information</legend>
+                <label for="course">Course</label>
+                <select name="course" id="course">
+                    <option value="">Select Course</option>
+                    <option value="B.tech">B.Tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="BA">BA</option>
+                </select><br><br>
+                <label for="qualification">Qualification:</label>
+                <input type="text" id="qualification" placeholder="Enter Your Qualification"><br><br>
+                <label for="passing">Passing Year:</label>
+                <input type="number" name="passing" id="passing" placeholder="Enter Passing Year"><br><br>
+                <label for="percentage">Percentage:</label>
+                <input type="number" id="percentage" placeholder="Enter Percentage">
+            </fieldset><br>
+            <fieldset>
+                <legend>Other Information</legend>
+                <label class="sky" for="hobbies">Hobbies:</label><br><br>
+                <input type="checkbox" name="hobbies" id="reading"><label for="reading">Reading</label><br>
+                <input type="checkbox" name="hobbies" id="music"><label for="music">Music</label><br>
+                <input type="checkbox" name="hobbies" id="playing"><label for="playing">Playing</label><br>
+                <input type="checkbox" name="hobbies" id="travelling"><label for="travelling">Travelling</label><br>
+                <br>
+                <label class="sky" for="skills">Skills:</label><br><br>
+                <input type="checkbox" name="skills" id="html"><label for="html">HTML</label><br>
+                <input type="checkbox" name="skills" id="css"><label for="css">CSS</label><br>
+                <input type="checkbox" name="skills" id="javascript"><label for="javascript">JavaScript</label><br>
+                <input type="checkbox" name="skills" id="python"><label for="python">Python</label><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Documents</legend>
+                <label for="photo">Upload Photo</label>
+                <input type="file" name="photo" id="photo"><br><br>
+                <label for="resume">Upload Resume</label>
+                <input type="file" name="resume" id="resume">
+            </fieldset>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+</body>
+
+</html>
