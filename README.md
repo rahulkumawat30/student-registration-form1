@@ -46,7 +46,7 @@ student-registration-form/
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/student-registration-form.git
+git clone https://github.com/rahulkumawat30/student-registration-form.git
 ```
 
 2. Open the project folder.
@@ -70,12 +70,8 @@ Through this project, I practiced:
 * Basic responsive design
 
 ## 📸 Preview
+<img width="1916" height="1034" alt="image" src="https://github.com/user-attachments/assets/10d54c8c-8ef9-43a7-b79a-7a1f99b29999" />
 
-Add a screenshot of your project here:
-
-```text
-![Student Registration Form](screenshot.png)
-```
 
 ## 🔮 Future Improvements
 
