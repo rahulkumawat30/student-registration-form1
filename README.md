@@ -21,6 +21,7 @@ The Student Registration Form allows users to enter basic personal and registrat
 
 * **HTML5** – Used to create the structure and form elements.
 * **CSS3** – Used for styling, layout, spacing, and overall appearance.
+* **JavaScript** – Used to add form validation and interactive functionality.
 
 ## 📂 Project Structure
 
