@@ -98,6 +98,25 @@ button[type="reset"]:hover{
     background-color: #4b5563;
 }
 
+small{
+    display: block;
+    color: red;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+input.error,
+select.error,
+textarea.error {
+    border: 2px solid red;
+}
+
+input.valid,
+select.valid,
+textarea.valid {
+    border: 2px solid green;
+}
+
 @media (max-width: 600px){
     main{
         margin: 15px;

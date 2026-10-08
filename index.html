@@ -11,17 +11,20 @@
 <body>
     <header><h1>Student Registration Form</h1></header>
     <main>
-        <form>
+        <form id="studentForm">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label for="name">Full Name:</label>
-                <input type="text" id="name" placeholder="Enter Full Name"><br><br>
+                <input type="text" id="name" placeholder="Enter Full Name"><small id="nameError"></small><br>
                 <label for="fname">Father's Name:</label>
-                <input type="text" id="fname" placeholder="Enter Father's Name"><br><br>
+                <input type="text" id="fname" placeholder="Enter Father's Name">
+                <small id="fnameError"></small><br>
                 <label for="mname">Mother's Name:</label>
-                <input type="text" id="mname" placeholder="Enter Mother's Name"><br><br>
+                <input type="text" id="mname" placeholder="Enter Mother's Name">
+                <small id="mnameError"></small><br>
                 <label for="dob">Date Of Birth:</label>
-                <input type="date" id="dob"><br><br>
+                <input type="date" id="dob">
+                <small id="dobError"></small><br>
                 <label for="gender">Gender:</label>
                 <input type="radio" name="gender" id="male"><label for="male">Male</label>
                 <input type="radio" name="gender" id="female"><label for="female">Female</label>
@@ -30,11 +33,13 @@
             <fieldset>
                 <legend>Contact Information</legend>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Enter Your Email"><br><br>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                <small id="emailError"></small><br>
                 <label for="tel">Mobile Number:</label>
-                <input type="tel" name="tel" id="tel" placeholder="Enter Your Mobile Number" maxlength="10"><br><br>
+                <input type="tel" name="tel" id="tel" placeholder="Enter Your Mobile Number" maxlength="10">
+                <small id="telError"></small><br>
                 <label for="address">Address:</label>
-                <textarea cols="30" rows="5" name="address" id="address" placeholder="Enter Address"></textarea><br><br>
+                <textarea cols="30" rows="5" name="address" id="address" placeholder="Enter Address"></textarea>
                 
             </fieldset><br>
             <fieldset>
@@ -46,7 +51,8 @@
                     <option value="BCA">BCA</option>
                     <option value="B.Sc">B.Sc</option>
                     <option value="BA">BA</option>
-                </select><br><br>
+                </select>
+                <small id="courseError"></small><br>
                 <label for="qualification">Qualification:</label>
                 <input type="text" id="qualification" placeholder="Enter Your Qualification"><br><br>
                 <label for="passing">Passing Year:</label>
@@ -71,15 +77,18 @@
             <fieldset>
                 <legend>Documents</legend>
                 <label for="photo">Upload Photo</label>
-                <input type="file" name="photo" id="photo"><br><br>
+                <input type="file" name="photo" id="photo"><br>
                 <label for="resume">Upload Resume</label>
                 <input type="file" name="resume" id="resume">
             </fieldset>
 
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
+            <p id="message"></p>
         </form>
+        
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
